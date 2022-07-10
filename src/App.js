@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Counter from './Counter';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>React Redux Saga</p>
+        <h2>Welcome to mu counter</h2>
+        <Counter />
       </header>
     </div>
   );
